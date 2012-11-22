@@ -1,0 +1,69 @@
+<!-- Home -->
+        <div data-role="page" id="page1">
+            <div id="header" data-theme="a" data-role="header">
+                <h1 id="titleHeader">
+                    Macarrão Show
+                </h1>
+            </div>
+            <div data-role="content">
+                <div id="escolhaPedido" data-role="fieldcontain">
+                    <fieldset data-role="controlgroup" data-type="vertical">
+                        <legend>Escolha seu pedido.:</legend>
+                        <input id="radio1" name="escolhaPedido" value="meioPrato" type="radio" />
+                        <label for="radio1">Meio Prato</label>
+                        <input id="radio2" name="escolhaPedido" value="pratoInteiro" type="radio" />
+                        <label for="radio2">Prato Inteiro</label>
+                    </fieldset>
+                </div>
+                <div id="molho" data-role="fieldcontain">
+                    <fieldset data-role="controlgroup" data-type="vertical" data-mini="true">
+                        <legend>Escolha o Molho.:</legend>
+                        <input id="radio3" name="escolhaMolho" value="molhoTradicional" type="radio" />
+                        <label for="radio3">Molho Tradicional</label>
+                        <input id="radio4" name="escolhaMolho" value="molhoBranco" type="radio" />
+                        <label for="radio4">Molho Branco</label>
+                        <input id="radio5" name="escolhaMolho" value="molhoAlho" type="radio" />
+                        <label for="radio5">Molho de Alho</label>
+                        <input id="radio6" name="escolhaMolho" value="molhoTomate" type="radio" />
+                        <label for="radio6">Molho de Tomate</label>
+                    </fieldset>
+                </div>
+                <div id="ingrediente" data-role="fieldcontain">
+                    <fieldset data-role="controlgroup" data-type="vertical" data-mini="true">
+                        <legend>Escolha os Ingredientes.:</legend>
+                        <input id="checkbox2" name="Calabresa" type="checkbox" />
+                        <label for="checkbox2">Calabresa</label>
+                        <input id="checkbox3" name="cbQueijo" type="checkbox" />
+                        <label for="checkbox3">Queijo</label>
+                        <input id="checkbox4" name="cbSalsicha" type="checkbox" />
+                        <label for="checkbox4">Salsicha</label>
+                        <input id="checkbox5" name="cbPepino" type="checkbox" />
+                        <label for="checkbox5">Pepino</label>
+                        <input id="checkbox6" name="cbTomate" type="checkbox" />
+                        <label for="checkbox6">Tomate</label>
+                        <input id="checkbox7" name="cbCebola" type="checkbox" />
+                        <label for="checkbox7">Cebola</label>
+                        <input id="checkbox8" name="cbPresunto" type="checkbox" />
+                        <label for="checkbox8">Presunto</label>
+                    </fieldset>
+                </div>
+                <div id="macarrao" data-role="fieldcontain">
+                    <fieldset data-role="controlgroup" data-type="vertical" data-mini="true">
+                        <legend>Escolha o Macarrão.:</legend>
+                        <input id="radio7" name="escolhaMacarrao" value="macarraoParafuso" type="radio" />
+                        <label for="radio7">Macarrão Parafuso</label>
+                        <input id="radio8" name="escolhaMacarrao" value="macarraoTalharim" type="radio" />
+                        <label for="radio8">Macarrão Talharim</label>
+                        <input id="radio9" name="escolhaMacarrao" value="macarraoEspaguete" type="radio" />
+                        <label for="radio9">Macarrão Espaguete</label>
+                    </fieldset>
+                </div>
+              	<input id="btnCancelar" type="submit" data-inline="true" data-theme="a" data-icon="row-r" data-iconpos="left" value="Cancelar" data-mini="true" />
+		<input id="btnEnviar" type="submit" data-inline="true" data-theme="b" data-icon="arrow-r" data-iconpos="right" value="Enviar" data-mini="true" onclick="javascript:alert('Pedido enviado com sucesso!!! Senha: 25')"/>
+            </div>
+            <div data-theme="a" data-role="footer" data-position="fixed">
+                <h3 id="footer">
+                    Lar - Medianeira
+                </h3>
+            </div>
+        </div>
